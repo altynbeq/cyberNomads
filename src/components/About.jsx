@@ -32,8 +32,7 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    // changed w-full to w-[80%]
-    <div className='w-[80%]'>
+    <div className='w-full'>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
           О нас
