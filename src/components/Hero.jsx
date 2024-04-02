@@ -6,7 +6,8 @@ import { SpaceHelmet } from './canvas'
 
 const Hero = () => {
   return (
-    <section className='relative w-full h-screen mx-auto'>
+    // changes w-full to w-80%
+    <section className='relative w-[80%] h-screen mx-auto'>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
@@ -16,7 +17,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Добро пожаловать в
             <br />
-            <span className="text-[#915eff]"> Cyber Nomads</span>
+            <span className="text-[#915eff]"> Cyber Nomads V2</span>
           </h1>
           <p className={`${styles.heroSubText} hidden  lg:block  mt-2 text-white-100`}>
           Ваш надежный партнер в автоматизации бизнес-процессов! <br/>
