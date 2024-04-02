@@ -10,8 +10,8 @@ const App = () => {
           <Hero />
         </div>
           <About />
-          <Experience />
           <Works />
+          <Experience />
           <div className="z-[-1]">
             <StarsCanvas />
           </div>

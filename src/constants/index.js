@@ -196,16 +196,16 @@ import {
         "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
       tags: [
         {
-          name: "React.js",
+          name: "2 Недели",
           color: "blue-text-gradient",
         },
         {
-          name: "JavaScript",
+          name: "50-200k тенге",
           color: "green-text-gradient",
         },
         {
-          name: "TailwindCSS",
-          color: "green-text-gradient",
+          name: "+SEO",
+          color: "pink-text-gradient",
         },
       ],
       image: euroVista,
@@ -217,19 +217,15 @@ import {
         "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
       tags: [
         {
-          name: "React.js",
+          name: "1 Неделя",
           color: "blue-text-gradient",
         },
         {
-          name: "JavaScript",
+          name: "100-150k тенге",
           color: "green-text-gradient",
         },
         {
-          name: "Rest API",
-          color: "green-text-gradient",
-        },
-        {
-          name: "CSS",
+          name: "+Документация",
           color: "pink-text-gradient",
         },
       ],
@@ -242,15 +238,15 @@ import {
         "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
       tags: [
         {
-          name: "JavaScript",
+          name: "1 Неделя",
           color: "blue-text-gradient",
         },
         {
-          name: "Bootstrap",
+          name: "50k тенге",
           color: "green-text-gradient",
         },
         {
-          name: "HTML",
+          name: "+Документация",
           color: "pink-text-gradient",
         },
       ],
@@ -263,15 +259,15 @@ import {
         "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
       tags: [
         {
-          name: "JavaScript",
+          name: "2-4 Недель",
           color: "blue-text-gradient",
         },
         {
-          name: "Bootstrap",
+          name: "75k-150k тенге",
           color: "green-text-gradient",
         },
         {
-          name: "HTML",
+          name: "+Тех поддержка",
           color: "pink-text-gradient",
         },
       ],
@@ -284,15 +280,15 @@ import {
         "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
       tags: [
         {
-          name: "JavaScript",
+          name: "1 Неделя",
           color: "blue-text-gradient",
         },
         {
-          name: "Bootstrap",
+          name: "30к тенге",
           color: "green-text-gradient",
         },
         {
-          name: "HTML",
+          name: "+Обучение",
           color: "pink-text-gradient",
         },
       ],
@@ -305,15 +301,15 @@ import {
         "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
       tags: [
         {
-          name: "JavaScript",
+          name: "1 Неделя",
           color: "blue-text-gradient",
         },
         {
-          name: "Bootstrap",
+          name: "35k tenge",
           color: "green-text-gradient",
         },
         {
-          name: "HTML",
+          name: "+Инструменты",
           color: "pink-text-gradient",
         },
       ],
@@ -326,15 +322,15 @@ import {
         "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
       tags: [
         {
-          name: "JavaScript",
+          name: "2 Недели",
           color: "blue-text-gradient",
         },
         {
-          name: "Bootstrap",
+          name: "65k тенге",
           color: "green-text-gradient",
         },
         {
-          name: "HTML",
+          name: "+Практика",
           color: "pink-text-gradient",
         },
       ],
@@ -347,15 +343,15 @@ import {
         "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
       tags: [
         {
-          name: "JavaScript",
+          name: "1 Неделя",
           color: "blue-text-gradient",
         },
         {
-          name: "Bootstrap",
+          name: "45k тенге",
           color: "green-text-gradient",
         },
         {
-          name: "HTML",
+          name: "+Обучение",
           color: "pink-text-gradient",
         },
       ],
@@ -368,15 +364,15 @@ import {
         "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
       tags: [
         {
-          name: "JavaScript",
+          name: "1-3 месяцев",
           color: "blue-text-gradient",
         },
         {
-          name: "Bootstrap",
+          name: "100-300k тенге",
           color: "green-text-gradient",
         },
         {
-          name: "HTML",
+          name: "+Тех поддержка",
           color: "pink-text-gradient",
         },
       ],
