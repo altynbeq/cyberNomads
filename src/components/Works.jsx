@@ -8,9 +8,9 @@ import { Tilt } from 'react-tilt'
 import { github } from '../assets'
 
 const ProjectCard = ({index, name, description, tags, image , source_code_link}) => (
-  <motion.div
-    variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-  >
+  // <motion.div
+  //   variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+  // >
     <Tilt
         options={{
           max: 45,
@@ -56,17 +56,17 @@ const ProjectCard = ({index, name, description, tags, image , source_code_link})
           ))}
         </div>
       </Tilt>
-  </motion.div>
+  // </motion.div>
 )
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      {/* <motion.div variants={textVariant()}> */}
         <h2 className={styles.heroHeadText}>
           Наши услуги
         </h2>
-      </motion.div> 
+      {/* </motion.div>  */}
       <div className='w-full flex'>
         <motion.p 
           variants={fadeIn("", "", 0.1, 1)}

@@ -10,7 +10,7 @@ const ServiceCard = ({ index, title, icon }) => {
   return(
     <Tilt className="xs:w-[250px] w-full">
       <motion.div 
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+        // variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
         <div 
           options={{
@@ -23,7 +23,6 @@ const ServiceCard = ({ index, title, icon }) => {
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
           <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
         </div>
-
       </motion.div>
     </Tilt>
   )
@@ -43,7 +42,7 @@ const About = () => {
       </motion.div>
       <motion.p 
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[20px] max-w-5xl leading-[30px]"
+        className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px]"
       >
         Вложение в автоматизацию ваших бизнес-процессов - это не только выгодное, но и долгосрочное решение! Однократные затраты принесут вам значительные выгоды на протяжении многих лет! <br />
         <br />
