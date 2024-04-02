@@ -193,7 +193,7 @@ import {
     {
       name: "Создание сайтов",
       description:
-        "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
+        "Специализируемся на разработке современных веб-сайтов, от лендинга до интернет-магазина. Обеспечиваем оптимизацию и совместимость с различными браузерами, предлагая современный дизайн и широкий функционал. Наши веб-сайты привлекут ваших клиентов к приобретению ваших товаров или услуг и удобному их использованию.",
       tags: [
         {
           name: "2 Недели",
@@ -214,7 +214,7 @@ import {
     {
       name: "Чат боты на базе ИИ",
       description:
-        "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
+        "Чат-бот на основе искусственного интеллекта представляет собой технологический прорыв в сфере информационных технологий. Обладая всей необходимой информацией о ваших товарах и услугах, он отличается высоким уровнем профессионализма и навыками продаж. Доступен 24/7 для ваших клиентов и работает значительно эффективнее, чем обычный человек.",
       tags: [
         {
           name: "1 Неделя",
@@ -235,7 +235,7 @@ import {
     {
       name: "Интеграция CRM систем",
       description:
-        "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
+        "Предлагаем интеграцию CRM системы в ваши существующие веб-сайты и платформы. Наша система обеспечивает широкий функционал по выгрузке и загрузке данных, а также мгновенное поступление заказов со всех ресурсов. Это отличное средство для эффективного отслеживания процессов в вашем бизнесе. CRM помогут вам оптимизировать ваши процессы.",
       tags: [
         {
           name: "1 Неделя",
@@ -256,10 +256,10 @@ import {
     {
       name: "Автоматизация процессов",
       description:
-        "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
+        "Наши решения по автоматизации процессов предоставляют вашему бизнесу возможность значительно повысить эффективность и сократить затраты. Мы создаем индивидуальные решения, которые позволяют автоматизировать рутинные операции, улучшить координацию между отделами и обеспечить точное и своевременное выполнение задач.",
       tags: [
         {
-          name: "2-4 Недель",
+          name: "2 Недели",
           color: "blue-text-gradient",
         },
         {
@@ -267,7 +267,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "+Тех поддержка",
+          name: "+Тех под.",
           color: "pink-text-gradient",
         },
       ],
@@ -277,7 +277,7 @@ import {
     {
       name: "Инструменты маркетинга",
       description:
-        "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
+        "Набор инструментов представляет собой универсальное решение для повышения качества маркетинговых компаний в одном месте. Мы предлагаем широкий функционал, который позволяет создавать посты на всех социальных сетях, запускать рекламные кампании, обрабатывать почтовые письма и управлять отзывами клиентов и многое другое. Все это доступно всего в несколько кликов.",
       tags: [
         {
           name: "1 Неделя",
@@ -298,7 +298,7 @@ import {
     {
       name: "Создание бренда",
       description:
-        "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
+        "Наш уникальный пакет по созданию бренда представляет собой полный комплекс услуг, который поможет вашему бизнесу выделиться на рынке. Мы предлагаем вам выбор из 4 логотипов, специально разработанную цветовую гамму, которая будет использоваться в оформлении вашего сайта, соц сетей и продукции. Помимо этого, визуализацию вашего бренда с вашими продуктами.",
       tags: [
         {
           name: "1 Неделя",
@@ -319,7 +319,7 @@ import {
     {
       name: "Обучение работе с ИИ",
       description:
-        "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
+        "Наше обучение работе с искусственным интеллектом предоставляет уникальную возможность освоить передовые технологии и раскрыть потенциал вашего бизнеса. Предлагаем глубокое погружение в мир ИИ, обучая вас не только использовать существующие инструменты, но и создавать собственные инновационные решения. Поможем вам успешно внедрить ИИ в ваш бизнес и достичь новых высот эффективности и конкурентоспособности.",
       tags: [
         {
           name: "2 Недели",
@@ -340,7 +340,7 @@ import {
     {
       name: "Аналитика сайтов",
       description:
-        "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
+        "В этом модуле вы сможете отслеживать количество посещений, получать инсайты о времени, когда происходит наибольшая активность, выявлять самые посещаемые страницы, а также определять устройства, с которых пользователи заходят на ваш сайт. Аналитика посещений за день и неделю поможет вам лучше понять поведение вашей аудитории и принимать обоснованные решения для улучшения пользовательского опыта и эффективности вашего бизнеса.",
       tags: [
         {
           name: "1 Неделя",
@@ -359,9 +359,9 @@ import {
       source_code_link: "https://github.com/altynbeq/code-work/tree/master/BlogProject",
     },
     {
-      name: "Создание продвинутых систем",
+      name: "Создание систем",
       description:
-        "I spearheaded the development of a comprehensive website for a company specializing in facilitating individuals' relocation to the EU while offering extensive support in securing employment opportunities. The platform serves as a pivotal resource, guiding users through the intricacies of international relocation and job placement processes.",
+        "Мы специализируемся на создании продвинутых систем, которые адаптируются под уникальные потребности каждого клиента, независимо от их сложности. Наш опыт и экспертиза позволяют нам разрабатывать комплексные решения, которые в полной мере удовлетворяют запросы и требования наших клиентов. Будь то создание масштабных корпоративных систем или индивидуальных программных продуктов, мы гарантируем высокое качество в каждом проекте.",
       tags: [
         {
           name: "1-3 месяцев",
@@ -372,7 +372,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "+Тех поддержка",
+          name: "+Тех под.",
           color: "pink-text-gradient",
         },
       ],
