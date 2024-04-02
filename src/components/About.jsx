@@ -100,6 +100,9 @@ const About = () => {
               </h2>
             </div>
             <p className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px]">
+                <div className='text-white font-extrabold '> 
+                  Мы специализируемся на разработке уникальных и эффективных IT-продуктов для бизнеса.
+                </div>
                 Вложение в автоматизацию ваших бизнес-процессов - это не только выгодное, но и долгосрочное решение! Однократные затраты принесут вам значительные выгоды на протяжении многих лет! <br />
                 <br />
                 <div className='text-white font-extrabold '> 

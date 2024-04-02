@@ -12,17 +12,17 @@ const Contact = () => {
         variants={slideIn('left', 'tween', 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
         >
-          <p className={styles.sectionSubText}>Get in touch</p>
-          <h3 className={styles.sectionHeadText}>Contact</h3>
+          <p className={styles.sectionSubText}>Нажмите на поле для связи</p>
+          <h3 className={styles.sectionHeadText}>Контакты</h3>
 
           <form  className='mt-12 flex flex-col gap-8'>
             <label className='flex flex-col'>
-              <span className='text-white font-medium mb-4'>My name</span>
+              <span className='text-white font-medium mb-4'>Название</span>
               <input 
                 type="text" 
                 name="name" 
                 placeholder='Enter name' 
-                value='Altynbek Kuat'
+                value='Cyber Nomads'
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium" />
             </label>
             <label className='flex flex-col'>
@@ -31,30 +31,22 @@ const Contact = () => {
                 type="email" 
                 name="email" 
                 value="alt.quat@gmail.com"
-                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium" />
+                className="bg-tertiary py-4 px-6 placeholder:text-secondary cursor-pointer text-white rounded-lg outlined-none border-none font-medium" />
             </label>
             <label className='flex flex-col cursor-pointer'>
-              <span className='text-white font-medium mb-4'>LinkedIn</span>
+              <span className='text-white font-medium mb-4'>WhatsApp</span>
               <input 
-                value="linkedin.com/in/altynbek-kuat"
-                onClick={() => window.open("https://www.linkedin.com/in/altynbek-kuat/")}
+                value="+77765591327"
+                onClick={() => window.open("https://wa.me/message/7C4PIMLFH34GM1")}
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg cursor-pointer outlined-none border-none font-medium" />
             </label>
             <label className='flex flex-col'>
-              <span className='text-white font-medium mb-4'>GitHub</span>
+              <span className='text-white font-medium mb-4'>Instagram</span>
               <input 
-                value="github.com/altynbeq"
-                onClick={() => window.open("https://github.com/altynbeq")}
-                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white cursor-pointer rounded-lg outlined-none border-none font-medium" />
+                value="cybernomads_agency"
+                onClick={() => window.open("https://www.instagram.com/cybernomads_agency?igsh=c3p6YnVqZ2lhaDk=")}
+                className="bg-tertiary py-4 px-6  placeholder:text-secondary text-white cursor-pointer rounded-lg outlined-none border-none font-medium" />
             </label>
-            <label className='flex flex-col'>
-              <span className='text-white font-medium mb-4'>CodeWars</span>
-              <input 
-                value="codewars.com/users/altynbeq"
-                onClick={() => window.open("https://www.codewars.com/users/altynbeq")}
-                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white cursor-pointer rounded-lg outlined-none border-none font-medium" />
-            </label>
-           
           </form>
       </motion.div>
       <motion.div
