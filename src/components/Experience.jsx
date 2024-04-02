@@ -7,6 +7,8 @@ import { experiences } from '../constants'
 import { SectionWrapper } from '../hoc'
 import { textVariant } from '../utils/motion'
 
+const isDesktop = window.innerWidth > 1024;
+
 const ExperienceCard = ({experience}) => (
    <VerticalTimelineElement 
     contentStyle={{background: '#1d1836', color: '#fff'}}
@@ -36,9 +38,8 @@ const ExperienceCard = ({experience}) => (
   )
 
 const Experience = () => {
-  return (
-    <>
-      <motion.div 
+  isDesktop ? (
+    <motion.div 
       variants={textVariant()}>
         <p className={styles.sectionSubText}>
           Как это работает?
@@ -53,9 +54,46 @@ const Experience = () => {
           ))}
           </VerticalTimeline>
         </div>
-      </motion.div>
-    </>
+    </motion.div>
+  ) : (
+    (
+      <div>
+        <p className={styles.sectionSubText}>
+          Как это работает?
+        </p>
+        <h2 className={styles.heroHeadText}>
+          Этапы сделки
+        </h2>
+        <div className='mt-20 flex flex-col'>
+          <VerticalTimeline >
+          {experiences.map((experience, index) => (
+            <ExperienceCard key={index} experience={experience} />
+          ))}
+          </VerticalTimeline>
+        </div>
+      </div>
+    )
   )
+  // return (
+  //   <>
+  //     <motion.div 
+  //     variants={textVariant()}>
+  //       <p className={styles.sectionSubText}>
+  //         Как это работает?
+  //       </p>
+  //       <h2 className={styles.heroHeadText}>
+  //         Этапы сделки
+  //       </h2>
+  //       <div className='mt-20 flex flex-col'>
+  //         <VerticalTimeline >
+  //         {experiences.map((experience, index) => (
+  //           <ExperienceCard key={index} experience={experience} />
+  //         ))}
+  //         </VerticalTimeline>
+  //       </div>
+  //     </motion.div>
+  //   </>
+  // )
 }
 
 export default SectionWrapper(Experience, "experience")
