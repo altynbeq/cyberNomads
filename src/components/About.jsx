@@ -32,7 +32,7 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <div className='w-full'>
+    <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
           О нас
@@ -57,7 +57,7 @@ const About = () => {
           return( <ServiceCard key={service.title} index={index} {...service}/> )
         } )}
       </div>
-    </div>
+    </>
   )
 }
 
