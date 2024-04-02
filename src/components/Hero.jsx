@@ -1,8 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
-import { SpaceHelmet } from './canvas'
+// import { ComputersCanvas } from './canvas'
+// import { SpaceHelmet } from './canvas'
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Добро пожаловать в
             <br />
-            <span className="text-[#915eff]"> Cyber Nomads V4F</span>
+            <span className="text-[#915eff]"> Cyber Nomads V5</span>
           </h1>
           <p className={`${styles.heroSubText} hidden  lg:block  mt-2 text-white-100`}>
           Ваш надежный партнер в автоматизации бизнес-процессов! <br/>
