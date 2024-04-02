@@ -16,7 +16,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Добро пожаловать в
             <br />
-            <span className="text-[#915eff]"> Cyber Nomads C3</span>
+            <span className="text-[#915eff]"> Cyber Nomads C4</span>
           </h1>
           <p className={`${styles.heroSubText} hidden  lg:block  mt-2 text-white-100`}>
           Ваш надежный партнер в автоматизации бизнес-процессов! <br/>
