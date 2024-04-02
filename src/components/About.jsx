@@ -70,24 +70,6 @@ const About = () => {
       {
         isDesktop ? (
           <div>
-            <div>
-              <p className={styles.sectionSubText}>
-                О нас
-              </p>
-              <h2 className={styles.heroHeadText}>
-                Чем мы занимаемся?
-              </h2>
-            </div>
-            <p className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px]">
-                Вложение в автоматизацию ваших бизнес-процессов - это не только выгодное, но и долгосрочное решение! Однократные затраты принесут вам значительные выгоды на протяжении многих лет! <br />
-                <br />
-                <div className='text-white font-extrabold '> 
-                  Наши решения не только оптимизируют ваше время и сокращают расходы, но и эффективно управляют вашими ресурсами!
-                </div>
-            </p>
-          </div>
-        ) : (
-          <div>
             <motion.div variants={textVariant()}>
               <p className={styles.sectionSubText}>
                 О нас
@@ -106,6 +88,24 @@ const About = () => {
                 Наши решения не только оптимизируют ваше время и сокращают расходы, но и эффективно управляют вашими ресурсами!
               </div>
             </motion.p>
+          </div>
+        ) : (
+          <div>
+            <div>
+              <p className={styles.sectionSubText}>
+                О нас
+              </p>
+              <h2 className={styles.heroHeadText}>
+                Чем мы занимаемся?
+              </h2>
+            </div>
+            <p className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px]">
+                Вложение в автоматизацию ваших бизнес-процессов - это не только выгодное, но и долгосрочное решение! Однократные затраты принесут вам значительные выгоды на протяжении многих лет! <br />
+                <br />
+                <div className='text-white font-extrabold '> 
+                  Наши решения не только оптимизируют ваше время и сокращают расходы, но и эффективно управляют вашими ресурсами!
+                </div>
+            </p>
           </div>
         )
       }
