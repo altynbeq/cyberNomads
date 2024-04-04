@@ -31,7 +31,7 @@ const Contact = () => {
                 type="email" 
                 name="email" 
                 value="alt.quat@gmail.com"
-                className="bg-tertiary py-4 px-6 placeholder:text-secondary cursor-pointer text-white rounded-lg outlined-none border-none font-medium" />
+                className="bg-tertiary disabled:*: py-4 px-6 placeholder:text-secondary cursor-pointer text-white rounded-lg outlined-none border-none font-medium" />
             </label>
             <label className='flex flex-col cursor-pointer'>
               <span className='text-white font-medium mb-4'>WhatsApp</span>
