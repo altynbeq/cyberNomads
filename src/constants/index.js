@@ -31,7 +31,15 @@ import {
     MoviesApp,
     StripeApp,
     cartApp,
-    cApp
+    cApp,
+    coins,
+    done,
+    hero,
+    roadmap1,
+    roadmap2,
+    roadmap3,
+    roadmap4,
+    undone,
   } from "../assets";
   
   export const navLinks = [
@@ -381,4 +389,53 @@ import {
     },
   ];
   
-  export { services, technologies, experiences,  projects };
+  const roadmap = [
+    {
+      id: "0",
+      title: "Асситент чата на ИИ",
+      text: [
+        "Создали чат бота на базе ИИ для Дубайсвкой фирма Zoomia, вместе с модулем аналитики данных с искуственным интелектом.",
+        "Ассистент ИИ по обслуживанию клиентов для Польской фирмы AMITRADE.",
+        "Создали систему записи диалогов менеджеров с клиентами, и аналитики этого диалога искуственным интелектом для выявление проблемных точек и эфективность менеджера."
+      ],
+      date: "May 2023",
+      status: "done",
+      imageUrl: roadmap1,
+      colorful: true,
+    },
+    {
+      id: "1",
+      title: "Создание интерактивных систем",
+      text: [
+        "ALOOOOOO",
+        "Так же разработали ассистента ИИ для Польской фирмы AMITRADE"
+      ],
+      date: "May 2023",
+      status: "progress",
+      imageUrl: roadmap2,
+    },
+    {
+      id: "2",
+      title: "Создание сайтов и продвижение в сети",
+      text: [
+        "Создали чат бота на базе ИИ для Дубайсвкой фирма Zoomia, вместе с модулем аналитики данных с искуственным интелектом.",
+        "Так же разработали ассистента ИИ для Польской фирмы AMITRADE"
+      ],
+      date: "May 2023",
+      status: "done",
+      imageUrl: roadmap3,
+    },
+    {
+      id: "3",
+      title: "Интеграции систем",
+      text: [
+        "Создали чат бота на базе ИИ для Дубайсвкой фирма Zoomia, вместе с модулем аналитики данных с искуственным интелектом.",
+        "Так же разработали ассистента ИИ для Польской фирмы AMITRADE"
+      ],
+      date: "May 2023",
+      status: "progress",
+      imageUrl: roadmap4,
+    },
+  ];
+
+  export { services, technologies, experiences,  projects, roadmap };

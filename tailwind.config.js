@@ -1,10 +1,17 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
     extend: {
       colors: {
+        keyframes: {
+          bounce : {
+            '0%, 100%': '{ transform: translateY(-50%);  animation-timing-function: cubic-bezier(0.8, 0, 1, 1); }' ,
+            '50%':  '{ transform: translateY(0); animation-timing-function: cubic-bezier(0, 0, 0.2, 1); }'
+          }
+        },
         primary: "#050816",
         secondary: "#aaa6c3",
         tertiary: "#151030",

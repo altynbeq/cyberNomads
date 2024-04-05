@@ -39,8 +39,29 @@ import StripeApp from './projects/stripeApp.png'
 import cartApp from './projects/cartApp.jpeg'
 import cApp from './projects/cApp.jpeg'
 import euroVista from './projects/euroVista.png'
+import gradient from './gradient.png'
+import check2 from './check-02.svg'
+import grid from './grid.png'
+import loading1 from './loading-01.svg'
+
+import coins from "./roadmap/coins.png";
+import done from "./roadmap/done.svg";
+import hero from "./roadmap/hero.png";
+import roadmap1 from "./roadmap/image-1.png";
+import roadmap2 from "./roadmap/image-2.png";
+import roadmap3 from "./roadmap/image-3.png";
+import roadmap4 from "./roadmap/image-4.png";
+import undone from "./roadmap/undone.svg";
 
 export {
+  coins,
+  done,
+  hero,
+  roadmap1,
+  roadmap2,
+  roadmap3,
+  roadmap4,
+  undone,
   logo,
   backend,
   creator,
@@ -78,5 +99,9 @@ export {
   StripeApp,
   cartApp,
   cApp,
-  euroVista
+  euroVista,
+  gradient,
+  check2,
+  grid,
+  loading1
 };
