@@ -8,7 +8,7 @@ import 'animate.css';
 const Hero = () => {
 
   return (
-    <section className='relative w-full h-screen mx-auto'>
+    <section className='relative w-full h-screen mx-auto flex flex-col'>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5 mb-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
@@ -28,7 +28,7 @@ const Hero = () => {
       </div>
       {/* {CHANGED THIS DIV FROM BOTTOM-32 TO BOTTOM-10} */}
       <div className='absolute xs:bottom-10 bottom-10 mt-10 w-full flex flex-col justify-center items-center'>
-        <div className='w-fit  animate-pulse h-fit' style={{ animationDuration: '3s', animationTimingFunction: 'cubic-bezier(0.8, 0.5, 0.5, 0.5)' }}>
+        <div className='w-fit   h-fit' style={{ animationDuration: '3s', animationTimingFunction: 'cubic-bezier(0.8, 0.5, 0.5, 0.5)' }}>
           <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
