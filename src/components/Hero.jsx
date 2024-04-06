@@ -19,7 +19,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white overflow-hidden`}>Добро пожаловать в
             <br />
-            <span className="text-[#915eff]"> Cyber Nomads </span>
+            <span className="text-[#915eff]">Cyber Nomads</span>
           </h1>
           <p className={`${styles.heroSubText} hidden font-serif overflow-hidden  lg:block  mt-2 text-white-100`}>
           Ваш надежный партнер в автоматизации бизнес-процессов! <br/>
@@ -30,7 +30,7 @@ const Hero = () => {
 
       {/* {CHANGED THIS DIV FROM BOTTOM-32 TO BOTTOM-10} */}
       <div className='absolute xs:bottom-10 bottom-10 mt-10 w-full flex flex-col justify-center items-center'>
-        <div className={`${isDesktop ? "w-[23%]" : "w-60%"}`}
+        <div className={`${isDesktop ? "w-[23%] animate-pulse" : "w-60%"}`}
           style={{ animationDuration: '3s', animationTimingFunction: 'cubic-bezier(0.8, 0.5, 0.5, 0.5)' }}>
           <TrackVisibility>
               {({ isVisible }) =>
