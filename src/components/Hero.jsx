@@ -6,6 +6,7 @@ import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 
 const Hero = () => {
+  const isDesktop = window.innerWidth > 1024;
 
   return (
     <section className='relative w-full h-screen mx-auto flex flex-col'>
@@ -29,7 +30,8 @@ const Hero = () => {
 
       {/* {CHANGED THIS DIV FROM BOTTOM-32 TO BOTTOM-10} */}
       <div className='absolute xs:bottom-10 bottom-10 mt-10 w-full flex flex-col justify-center items-center'>
-        <div className='w-[23%] animate-pulse' style={{ animationDuration: '3s', animationTimingFunction: 'cubic-bezier(0.8, 0.5, 0.5, 0.5)' }}>
+        <div className={`${isDesktop ? "w-[23%]" : "w-60%"}`}
+          style={{ animationDuration: '3s', animationTimingFunction: 'cubic-bezier(0.8, 0.5, 0.5, 0.5)' }}>
           <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
