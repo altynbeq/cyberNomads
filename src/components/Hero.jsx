@@ -16,19 +16,20 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Добро пожаловать в
+          <h1 className={`${styles.heroHeadText} text-white overflow-hidden`}>Добро пожаловать в
             <br />
             <span className="text-[#915eff]"> Cyber Nomads </span>
           </h1>
-          <p className={`${styles.heroSubText} hidden  lg:block  mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} hidden font-serif overflow-hidden  lg:block  mt-2 text-white-100`}>
           Ваш надежный партнер в автоматизации бизнес-процессов! <br/>
           Мы предлагаем широкий спектр услуг по выгодным ценам,  без ущерба качеству.
           </p>
         </div>
       </div>
+
       {/* {CHANGED THIS DIV FROM BOTTOM-32 TO BOTTOM-10} */}
       <div className='absolute xs:bottom-10 bottom-10 mt-10 w-full flex flex-col justify-center items-center'>
-        <div className='w-fit   h-fit' style={{ animationDuration: '3s', animationTimingFunction: 'cubic-bezier(0.8, 0.5, 0.5, 0.5)' }}>
+        <div className='w-[23%] animate-pulse' style={{ animationDuration: '3s', animationTimingFunction: 'cubic-bezier(0.8, 0.5, 0.5, 0.5)' }}>
           <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
@@ -38,7 +39,7 @@ const Hero = () => {
         </div>
             
         <a href='#about'>
-          <div className='w-[35px] h-[64px] bottom-2 rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[35px] h-[44px] bottom-2 rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.dev 
               animate={{
                 y: [0, 24, 0]
