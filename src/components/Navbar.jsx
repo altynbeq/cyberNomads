@@ -21,7 +21,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className='w-9 h-9 object-contain'/>
           <p className='text-white text-[18px] font-bold cursor-pointer'>Cyber Nomads <span className='sm:block hidden'>| Digital Agency</span></p>
         </Link>
-        <ul className='list-none fixed z-10 hidden sm:flex flex-row gap-10'>
+        <ul className='list-none  z-10 hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => {
             return(
               <li key={link.id} 
