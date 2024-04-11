@@ -7,6 +7,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Contact from './Contact';
 import Roadmap from './Roadmap';
+import MobileMenu from './MobileMenu';
 
 export {
   Hero,
@@ -20,5 +21,6 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  Roadmap
+  Roadmap,
+  MobileMenu
 }
