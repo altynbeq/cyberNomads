@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { styles } from '../styles'
 import { navLinks } from '../constants'
 import { logo, menu, close } from '../assets'
+import MobileMenu from './MobileMenu'
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -42,20 +43,7 @@ const Navbar = () => {
                 onClick={() => setToggle(!toggle)}
           />
           <div className={`${!toggle ? 'hidden' : 'flex fixed'} top-10  p-6 black-gradient right-0 mx-4 my-2 min-w-[140px] z-50 rounded-xl`}>
-            <ul className='list-none flex justify-end items-start flex-col gap-4'>
-              {navLinks.map((link) => {
-                return(
-                  <li key={link.id} 
-                      className={`${active === link.title ? "text-white" : "text-secondary"} font-poppins font-medium cursor-pointer text-[16px]`}
-                      onClick={() => {
-                        setActive(link.title);
-                        setToggle(!toggle);
-                      }}>
-                    <a href={`#${link.id}`}>{link.title}</a>
-                  </li>
-                )
-              })}
-            </ul>
+            <MobileMenu active={active} />
           </div>
         </div>
       </div>
