@@ -3,7 +3,7 @@ import { navLinks } from '../constants'
 
 const MobileMenu = (active) => {
   return (
-    <div>
+    <div className='z-50'>
         <ul className='list-none flex justify-end items-start flex-col gap-4'>
             {navLinks.map((link) => {
             return(
