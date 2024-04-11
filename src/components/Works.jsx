@@ -6,6 +6,7 @@ import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { Tilt } from 'react-tilt'
 import { github } from '../assets'
+import { whatsapp } from '../assets'
 
 const isDesktop = window.innerWidth > 1024;
 
@@ -80,18 +81,14 @@ const ProjectCard = ({index, name, description, tags, image , source_code_link})
               className='w-full h-full object-fit rounded-2xl'
             />
 
-            <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+            {/* <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
-                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                className='black-gradient  w-fit p-2 h-10 rounded-full flex justify-center items-center cursor-pointer'
               >
-                <img
-                  src={github}
-                  alt='source code'
-                  className='w-1/2 h-1/2 object-contain'
-                />
+                <p>Заказать</p>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className='mt-5'>
@@ -108,6 +105,9 @@ const ProjectCard = ({index, name, description, tags, image , source_code_link})
                 #{tag.name}
               </p>
             ))}
+          </div>
+          <div className='flex justify-center align-center '>
+            <button className='flex  width-[50%] mt-3  justify-center card-img_hover black-gradient pt-2 pb-2 pr-4 pl-4 rounded-xl'>Заказать</button>
           </div>
         </Tilt>
       </div>
@@ -181,7 +181,7 @@ const Works = () => {
               variants={fadeIn("", "", 0.1, 1)}
               className="mt-3 text-secondary text-[17px] max-w-4xl leading-[30px]"
               >
-              Откройте двери к новым возможностям с нашими изысканными услугами! <br />
+              Откройте двери к новым возможностям с нашими услугами! <br />
               Мы предлагаем нечто большее, чем просто стандартный каталог услуг. Оставьте заявку на консультацию, и мы создадим индивидуальное решение, подходящее именно для вашего бизнеса. <br />
               <br/>
               Наши услуги сопровождаются безукоризненной поддержкой 24/7 после запуска проекта.<br /> 
@@ -209,8 +209,7 @@ const Works = () => {
               Откройте двери к новым возможностям с нашими изысканными услугами! <br />
               Мы предлагаем нечто большее, чем просто стандартный каталог услуг. Оставьте заявку на консультацию, и мы создадим индивидуальное решение, подходящее именно для вашего бизнеса. <br />
               <br/>
-              Наши услуги сопровождаются безукоризненной поддержкой 24/7 после запуска проекта.<br /> 
-              <br />
+              
               <div className='text-white font-extrabold text-[20px]'>
                 И помните, наши услуги - это инвестирование в успех вашего бизнеса. Оптимизация процессов приведет к уменьшению издержек и повышению эффективности вашего предприятия. 
               </div>

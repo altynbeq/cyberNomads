@@ -8,7 +8,7 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className={`${styles.paddingX} w-full overflow-hidden flex items-center py-5 fixed top-0 z-10 bg-primary`}>
+    <nav className={`${styles.paddingX} w-full fixed  overflow-hidden flex items-center py-5  top-0 z-10 bg-primary`}>
       <div className='w-full flex justify-between items-center max-w-7x1 mx-auto'>
         <Link 
           to="/" 
@@ -35,13 +35,14 @@ const Navbar = () => {
             )
           })}
         </ul>
-        <div className='sm:hidden sm:fixed z-10 flex flex-1 justify-end items-center'>
+        <div className='sm:hidden sm:fixed z-50 flex flex-1 justify-end items-center'>
+          {/* <a href="#contact">Контакты</a> */}
           <img  src={toggle ? close : menu} alt="menu" 
                 className='w-[28px] h-[28px] object-contain cursor-pointer'
                 onClick={() => setToggle(!toggle)}
           />
-          <div className={`${!toggle ? 'hidden' : 'flex'} top-10 fixed overflow-hidden p-6 black-gradient  right-0 mx-4 my-2 min-w-[140px] z-15 rounded-xl`}>
-            <ul className='list-none flex  justify-end items-start flex-col gap-4'>
+          <div className={`${!toggle ? 'hidden' : 'flex fixed'} top-10  p-6 black-gradient right-0 mx-4 my-2 min-w-[140px] z-50 rounded-xl`}>
+            <ul className='list-none flex justify-end items-start flex-col gap-4'>
               {navLinks.map((link) => {
                 return(
                   <li key={link.id} 

@@ -52,8 +52,11 @@ import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
+import whatsapp from './whatsapp.png';
+
 
 export {
+  whatsapp,
   coins,
   done,
   hero,
