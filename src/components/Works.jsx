@@ -90,9 +90,6 @@ const ProjectCard = ({index, name, description, tags, image , source_code_link})
               </p>
             ))}
           </div>
-          <div className='flex justify-center align-center '>
-            <button className='flex  width-[50%] mt-3  justify-center card-img_hover black-gradient pt-2 pb-2 pr-4 pl-4 rounded-xl'>Заказать</button>
-          </div>
         </div>
       </div>
     )
