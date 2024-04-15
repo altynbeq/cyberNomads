@@ -8,6 +8,7 @@ import Works from './Works';
 import Contact from './Contact';
 import Roadmap from './Roadmap';
 import MobileMenu from './MobileMenu';
+import FiveInOne from './FiveInOne'
 
 export {
   Hero,
@@ -22,5 +23,6 @@ export {
   ComputersCanvas, 
   StarsCanvas,
   Roadmap,
-  MobileMenu
+  MobileMenu,
+  FiveInOne
 }

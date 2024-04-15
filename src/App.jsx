@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Hero, Navbar, Works, StarsCanvas, Roadmap, MobileMenu } from './components';
+import { About, Contact, Experience, Hero, Navbar, Works, StarsCanvas, Roadmap, MobileMenu, FiveInOne } from './components';
 
 const App = () => {
   const [active, setActive] = useState(false);
@@ -14,6 +14,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <FiveInOne />
         <Works />
         <Roadmap />
         <Experience />

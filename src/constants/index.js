@@ -200,6 +200,38 @@ import {
       }
   ];
   
+    const fiveInOneData = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: euroVista,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: euroVista,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: euroVista,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: euroVista,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: euroVista,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: euroVista,
+    },
+  ];
   
   const projects = [
     {
@@ -448,4 +480,4 @@ import {
     },
   ];
 
-  export { services, technologies, experiences,  projects, roadmap };
+  export { services, technologies, experiences,  projects, roadmap, fiveInOneData };

@@ -54,8 +54,21 @@ import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
 import whatsapp from './whatsapp.png';
 
+import analyt from './modules/analyt.png'
+import crmModule from './modules/crm.png'
+import invoice from './modules/invoice.png'
+import markt from './modules/markt.png'
+import websiteOne from './modules/web.png'
+import techsupp from './modules/techsupport.png'
+
 
 export {
+  techsupp,
+  websiteOne,
+  analyt,
+  crmModule,
+  invoice,
+  markt,
   whatsapp,
   coins,
   done,
