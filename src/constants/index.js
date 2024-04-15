@@ -40,8 +40,9 @@ import {
     roadmap3,
     roadmap4,
     undone,
+    analyt, crmModule, invoice, markt, websiteOne, techsupp
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -79,7 +80,7 @@ import {
       icon: backend,
     },
     {
-      title: "Создание модулей и многое другое",
+      title: "Создание кастомных модулей",
       icon: creator,
     },
     {
@@ -100,6 +101,39 @@ import {
     },
   ];
   
+  const fiveInOneData = [
+    {
+      title: "Сайт для бизнеса",
+      description: "Получите веб-сайт, специально разработанный для вашего бизнеса. Наши решения включают в себя каталог ваших товаров и услуг, всю необходимую информацию о вашей компании. Мы интегрируем формы обратной связи и точки контакта, чтобы обеспечить эффективное взаимодействие с клиентами и максимально вовлечь их в процесс покупки.",
+      imgUrl: websiteOne,
+    },
+    {
+      title: "Аналитика сайта",
+      description: "Следите за количеством посетителей в разные периоды времени, определяйте страницы с наибольшим трафиком, анализируйте типы используемых устройств и часы пик активности. Наши интерактивные графики помогут вам лучше понять предпочтения вашей аудитории и принимать обоснованные решения для улучшения пользовательского опыта.",
+      imgUrl: analyt,
+    },
+    {
+      title: "CRM система",
+      description: "Design & Development",
+      imgUrl: crmModule,
+    },
+    {
+      title: "Инструмент маркетинга",
+      description: "Design & Development",
+      imgUrl: markt,
+    },
+    {
+      title: "Генератор инвойса",
+      description: "Design & Development",
+      imgUrl: invoice,
+    },
+    {
+      title: "Тех поддержка",
+      description: "Design & Development",
+      imgUrl: techsupp,
+    },
+  ];
+
   const technologies = [
     {
       name: "HTML 5",
@@ -198,39 +232,6 @@ import {
       "Непрерывная поддержка от нашей команды на протяжении всего вашего пути работы с продуктом, обеспечивая вам помощь и консультации 24/7."
       ],
       }
-  ];
-  
-    const fiveInOneData = [
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: euroVista,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: euroVista,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: euroVista,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: euroVista,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: euroVista,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: euroVista,
-    },
   ];
   
   const projects = [

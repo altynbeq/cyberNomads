@@ -1,4 +1,3 @@
-import {euroVista , analyt, crmModule, invoice, markt, websiteOne, techsupp} from "../assets";
 import { styles } from '../styles'
 import colorSharp2 from "../assets/color-sharp2.png";
 import 'animate.css';
@@ -6,42 +5,9 @@ import TrackVisibility from 'react-on-screen';
 import { textVariant, fadeIn } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 import { Button } from "react-bootstrap";
+import { fiveInOneData } from "../constants";
 
 
-
-
-const fiveInOneData = [
-    {
-      title: "Сайт для бизнеса",
-      description: "Получите веб-сайт, специально разработанный для вашего бизнеса. Наши решения включают в себя каталог ваших товаров и услуг, всю необходимую информацию о вашей компании. Мы интегрируем формы обратной связи и точки контакта, чтобы обеспечить эффективное взаимодействие с клиентами и максимально вовлечь их в процесс покупки.",
-      imgUrl: websiteOne,
-    },
-    {
-      title: "Аналитика сайта",
-      description: "Следите за количеством посетителей в разные периоды времени, определяйте страницы с наибольшим трафиком, анализируйте типы используемых устройств и часы пик активности. Наши интерактивные графики помогут вам лучше понять предпочтения вашей аудитории и принимать обоснованные решения для улучшения пользовательского опыта.",
-      imgUrl: analyt,
-    },
-    {
-      title: "CRM система",
-      description: "Design & Development",
-      imgUrl: crmModule,
-    },
-    {
-      title: "Инструмент маркетинга",
-      description: "Design & Development",
-      imgUrl: markt,
-    },
-    {
-      title: "Генератор инвойса",
-      description: "Design & Development",
-      imgUrl: invoice,
-    },
-    {
-      title: "Тех поддержка",
-      description: "Design & Development",
-      imgUrl: techsupp,
-    },
-  ];
 
 const ProjectCard = ({index, title, description, tags, imgUrl , source_code_link}) => {
   return (
@@ -87,22 +53,23 @@ const FiveInOne = ({index, name, image , source_code_link}) => {
         <ProjectCard key={`project-${index}`} {...project}/>
         ) )}
     </div>
-    <div className="mt-10 flex justify-center align-center gap-10">
+    <div className="mt-10 flex justify-center  items-center gap-10">
+{/* 
+      <a href="#projects" className="text-white xs:w-full xs:text-sm flex flex-row justify-center items-center gap-2 bg-gradient-to-r from-[#151030] to-[#413986] opacity-[0.9] hover:opacity-[1] text-xl px-8 py-4 rounded-xl border border-[#413986] hover:border-transparent transition-colors duration-300">
+          Больше инфорамции
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+      </a> */}
 
-        <a href="#projects" className="text-white flex flex-row justify-center items-center gap-2 bg-gradient-to-r from-[#151030] to-[#413986] opacity-[0.9]  hover:opacity-[1] text-xl px-8 py-4 rounded-xl border border-[#413986] hover:border-transparent transition-colors duration-300">
-            Больше инфорамции
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-            </svg>
-        </a>
+      <button onClick={() => { window.open("https://wa.me/message/7C4PIMLFH34GM1")}} className="text-white px-20 flex flex-row justify-center items-center gap-2 bg-gradient-to-r from-[#151030] to-[#413986] opacity-[0.9]  hover:opacity-[1] text-xl py-4 rounded-xl border border-[#413986] hover:border-transparent transition-colors duration-300">
+          Заказать
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+      </button>
+    </div>
 
-        <button onClick={() => { window.open("https://wa.me/message/7C4PIMLFH34GM1")}} className="text-white flex flex-row justify-center items-center gap-2 bg-gradient-to-r from-[#151030] to-[#413986] opacity-[0.9] w-[24%] hover:opacity-[1] text-xl px-8 py-4 rounded-xl border border-[#413986] hover:border-transparent transition-colors duration-300">
-            Заказать
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-            </svg>
-        </button>
-</div>
 
     </div>
   )
