@@ -48,7 +48,7 @@ const FiveInOne = ({index, name, image , source_code_link}) => {
                 </span>
             </p>
         </div>
-    <div className='mt-10 flex flex-wrap gap-7'>
+    <div className='mt-10 flex flex-wrap justify-around gap-7 overflow-y-hidden'>
         {fiveInOneData.map( (project, index) => (
         <ProjectCard key={`project-${index}`} {...project}/>
         ) )}

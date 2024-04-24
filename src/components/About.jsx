@@ -131,11 +131,14 @@ const About = () => {
           Наши решения не только оптимизируют ваше время и сокращают расходы, но и эффективно управляют вашими ресурсами!
         </div>
       </motion.p> */}
-      <div className='mt-20 flex flex-wrap gap-10 p-3'>
+      <div className='width-full'>
+        <div className='mt-20 p-4 flex flex-wrap justify-center gap-10 overflow-y-hidden relative'>
         {services.map((service, index) => {
           return( <ServiceCard key={service.title} index={index} {...service}/> )
         } )}
+        </div>
       </div>
+      
     </>
   )
 }

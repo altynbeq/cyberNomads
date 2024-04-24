@@ -13,8 +13,8 @@ const isDesktop = window.innerWidth > 1024;
 const ProjectCard = ({index, name, description, tags, image , source_code_link}) => (
   <>
   { isDesktop ? (
-      <div>
-        <motion.div
+      <div className='overflow-y-hidden'>
+        <motion.div className='overflow-y-hidden'
           variants={fadeIn("up", "spring", index * 0.5, 0.75)}
         >
           <Tilt
@@ -23,7 +23,7 @@ const ProjectCard = ({index, name, description, tags, image , source_code_link})
                 scale: 1,
                 speed: 450,
               }}
-              className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+              className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full overflow-none relative'
             >
               <div className='relative w-full h-[230px]'>
                 <img
@@ -67,13 +67,13 @@ const ProjectCard = ({index, name, description, tags, image , source_code_link})
     ) : (
       <div>
         <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
-          <div className='relative w-full h-[230px]'>
+          <d  iv className='relative w-full h-[230px]'>
             <img
               src={image}
               alt='project_image'
               className='w-full h-full object-fit rounded-2xl'
             />
-          </div>
+          </d>
 
           <div className='mt-5'>
             <h3 className='text-white font-bold text-[24px] flex content-center justify-center'>{name}</h3>
@@ -147,7 +147,7 @@ const Works = () => {
               </div>
             </p>
           </div>
-          <div className='mt-20 flex flex-wrap gap-7'>
+          <div className='mt-20 flex flex-wrap justify-around gap-7 overflow-y-hidden'>
             {projects.map( (project, index) => (
               <ProjectCard key={`project-${index}`} {...project}/>
             ) )}

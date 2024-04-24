@@ -10,7 +10,7 @@ import { textVariant } from '../utils/motion'
 const isDesktop = window.innerWidth > 1024;
 
 const ExperienceCard = ({experience}) => (
-  <VerticalTimelineElement 
+  <VerticalTimelineElement
    contentStyle={{background: '#1d1836', color: '#fff'}}
    contentArrowStyle={{borderRight: '7px solid #232631'}}
    date={experience.date}
@@ -22,7 +22,7 @@ const ExperienceCard = ({experience}) => (
    }
    >
      <div>
-       <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+       <h3 className='text-white text-[24px] font-bold p'>{experience.title}</h3>
        <p className='text-secondary text-[16px] font-semibold' style={{margin:0}}>{experience.company_name}</p>
      </div>
      <ul className='mt-5 list-disc ml-5 space-y-2'>
@@ -42,7 +42,7 @@ const Experience = () => {
     <>
       {
         isDesktop ? (
-        <motion.div 
+        <motion.div
           variants={textVariant()}>
             <p className={styles.sectionSubText}>
               Как это работает?
